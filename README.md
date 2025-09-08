@@ -5,7 +5,7 @@
   <img src="demo.gif" alt="Demo 1" width="60%" style="border: 3px solid black;"/>
 </p>
 
-This Streamlit application leverages the power of Google's Generative AI and the Gemini-1.5-pro-latest model to provide insights and explanations about GitHub repositories. Simply input a GitHub URL, and the app will analyze the repository's structure and content, generating a comprehensive summary.
+This Streamlit application leverages the power of Google's Generative AI and the Gemini-2.5-flash-latest model to provide insights and explanations about GitHub repositories. Simply input a GitHub URL, and the app will analyze the repository's structure and content, generating a comprehensive summary.
 
 ## Features
 
@@ -19,7 +19,7 @@ This Streamlit application leverages the power of Google's Generative AI and the
 2. **Install dependencies:** `pip install -r requirements.txt` 
 3. **Set up API keys:**
     * **Google API Key:** Obtain a Google API key with access to the Generative AI API and set it as the `GOOGLE_API_KEY` environment variable. 
-    * **GitHub Token (Optional):** For private repositories or to avoid rate limiting, set your GitHub personal access token as the `GH_API_KEY` environment variable.
+    * **GitHub Token (It's needed!):** For private repositories or to avoid rate limiting, set your GitHub personal access token as the `GH_API_KEY` environment variable.
 4. **Run the application:** `streamlit run app.py`
 5. **Access the app:** Open the provided URL in your web browser.
 6. **Enter a GitHub URL:** Input the URL of the repository you want to analyze. 
